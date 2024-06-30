@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Safety Equipment Check Result</title>
+    <link rel="stylesheet" type="text/css" href="static/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Safety Equipment Check Result</h1>
+        <img src="{{ url_for('send_file', filename=filename) }}" alt="Processed Image">
+        <a href="{{ url_for('home') }}" class="button">Back to Welcome Page</a>
+    </div>
+</body>
+</html>
+
